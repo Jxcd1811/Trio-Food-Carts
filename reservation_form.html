@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reservation Form</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+<div class="background"></div>
+  <div class="container">
+  <h2>Reservation Form</h2>
+  <form id="reservationForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+    
+    <label for="partySize">Party Size:</label>
+    <input type="number" id="partySize" name="partySize" min="1" required>
+    
+    <label for="specialRequests"> Party package (Ex.Set B/"names of carts"):</label>
+    <textarea id="specialRequests" name="specialRequests"></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<div class="home">
+  <a href="first.html">🏡</a>
+<script src= "back_end.js"></script>
+</div>
+</div>
+</body>
+</html>
